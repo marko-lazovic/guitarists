@@ -4,31 +4,31 @@
          "name": "Jimi Hendrix",
          "image": "URL",
          "guitars": "Fender Stratocaster",
-         "strings": 6
+         "strings": "6"
       },
       {
          "name": "Edward Van Halen",
          "image": "URL",
          "guitars": "EVH Wolfgang",
-         "strings": 6
+         "strings": "6"
       },
       {
          "name": "Ritchie Blackmore",
          "image": "URL",
          "guitars": "Fender Stratocaster",
-         "strings": 6
+         "strings": "6"
       },
       {
          "name": "Saul Hudson - Slash",
          "image": "URL",
          "guitars": "Gibson Les Paul",
-         "strings": 6
+         "strings": "6"
       },
       {
          "name": "Tonny Iommy",
          "image": "URL",
          "guitars": "Gibson SG left-handed",
-         "strings": 6
+         "strings": "6"
       },
       {
          "name": "Steve Vai",
@@ -40,7 +40,7 @@
          "name": "Joe Satriani",
          "image": "URL",
          "guitars": "Ibanez JS1000",
-         "strings": 6
+         "strings": "6"
       },
       {
          "name": "John Petrucci",
@@ -52,13 +52,13 @@
          "name": "Yngwie J. Malmsteen",
          "image": "URL",
          "guitars": "Fender Stratocaster YJM",
-         "strings": 6
+         "strings": "6"
       },
       {
          "name": "Michael Romeo",
          "image": "URL",
          "guitars": "Caparison Dellinger Prominence MJR",
-         "strings": 6
+         "strings": "6"
       }
    ]
 }
