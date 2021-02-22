@@ -1,3 +1,11 @@
+# Uputstvo
+
+Da bi ova aplikacija radila kako treba, neophodno je prvo lokalno povući i instalirati [backend deo aplikacije](https://github.com/dejan-o/GuitaristsApi).
+
+Za ovaj, frontend, deo aplikacije, trebalo bi da nakon postavljanja lokalno `npm install` i `npm start` budu dovoljni da se app pokrene lokalno.
+Sve ostalo detaljnije možete pročitati ispod, u zvaničnoj dokumentaciji.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
