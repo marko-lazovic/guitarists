@@ -16,21 +16,27 @@ class App extends Component {
   componentDidMount() {
     axios.get('http://localhost:3002/api/v1/guitarists')
       .then(response => {
-        this.setState({ guitarists: response.data.data.guitarists });
+        this.setState({ guitarists: response.data.data.guitarists });        
       })
       .catch(err => console.log(err));
   }
   
-  cardHandler(guitarist){
-    let cardOutputVar = '';    
+  cardHandler(guitarist){    
+    let cardOutputVar = '';  
+    let imgSrc = null;  
     if (guitarist) {
-      cardOutputVar = <Card 
-        name={guitarist.name}
-        imgUrl={guitarist.image}
-        guitars={guitarist.guitars}
-        strings={guitarist.strings} />;
+      axios.get(`http://localhost:3002/api/v1/guitarists/images?image=${guitarist.image}`)
+        .then(res => {
+          imgSrc = res.config.url;
+          cardOutputVar = <Card
+            name={guitarist.name}
+            imgUrl={imgSrc}
+            guitars={guitarist.guitars}
+            strings={guitarist.strings} />;
+          this.setState({ cardOutput: cardOutputVar });
+        })
+        .catch(err => console.log(err));      
     }
-    this.setState({ cardOutput: cardOutputVar });
   }
 
   render() {
